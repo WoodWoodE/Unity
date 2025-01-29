@@ -1,0 +1,41 @@
+# Unity 자동 생성 폴더 및 파일
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# User-specific
+UserSettings/
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.sln
+*.tmp
+*.bak
+*.swp
+*.zip
+
+# 패키지 및 환경설정 파일
+Packages/packages-lock.json
+
+# 플랫폼별 빌드 파일
+*.apk
+*.aab
+*.ipa
+*.exe
+*.app
+*.dll
+*.pdb
+*.dSYM/
+
+# IDE 관련 파일
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
