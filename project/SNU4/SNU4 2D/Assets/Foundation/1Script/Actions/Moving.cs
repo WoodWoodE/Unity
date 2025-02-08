@@ -22,6 +22,22 @@ public class Moving : MonoBehaviour
     {
         rigid.AddForce(movement);
     }
+
+    void OnEnable()
+    {
+        print("나타났다!");
+    }
+
+    void OnDisable()
+    {
+        print("사라졌다!");
+    }
+
+    void OnMouseDown()
+    {
+        print("오브젝트 클릭되었다!");
+        rigid.AddForce (Vector2.up * 5, ForceMode2D.Impulse);
+    }
 }
 
 
